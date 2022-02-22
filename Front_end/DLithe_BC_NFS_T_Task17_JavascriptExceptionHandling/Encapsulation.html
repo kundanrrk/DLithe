@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+
+<body>
+    <p>Encapsulation Example</p>
+
+
+    <script>
+        class Student {
+            constructor() {
+                var name;
+                var marks;
+            }
+            getName() {
+                return this.name;
+            }
+            setName(name) {
+                this.name = name;
+            }
+
+            getMarks() {
+                return this.marks;
+            }
+            setMarks(marks) {
+                if (marks < 0 || marks > 100) {
+                    alert("Invalid Marks");
+                } else if (marks > 35 || marks < 45) {
+                    alert("Third Devision:")
+
+                } else if (marks > 45 || marks < 60) {
+                    alert("Second  Devision:")
+
+                } else if (marks > 60 || marks < 100) {
+                    alert("First  Devision:")
+
+                } else {
+                    this.marks = marks;
+                }
+            }
+        }
+        var stud = new Student();
+        stud.setName("ramesh");
+        stud.setMarks(90); //alert() invokes  
+        document.writeln(stud.getName() + " " + stud.getMarks());
+    </script>
+</body>
+
+</html>
