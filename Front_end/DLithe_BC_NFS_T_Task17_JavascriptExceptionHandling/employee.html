@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+
+<body>
+
+
+    <p id="demo"></p>
+
+    <script>
+        function Employee(first, last, designa, mobile) {
+            this.firstname = first;
+            this.lastname = last;
+            this.designation = designa;
+            this.mobile = mobile;
+
+
+        }
+        Employee.prototype.location = "Bangalore";
+
+        Employee.prototype.getDetails = function() {
+            return this.firstname + " " + this.lastname + " " +
+                this.designation + " " + this.mobile + " " + this.location
+        };
+
+        const employee = new Employee("mahesh", "kumar", "IT", 1234567890, "Bangalore");
+
+
+        document.getElementById("demo").innerHTML = employee.firstname + " " + employee.lastname + " " +
+            employee.designation + " " + employee.mobile + " " + employee.location;
+    </script>
+
+</body>
+
+
+</html>

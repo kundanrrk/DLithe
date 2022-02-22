@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+
+
+<body>
+
+    <script>
+        class Car {
+            display() {
+                return "car not picked yet by cient";
+            }
+
+        }
+
+        class BMW extends Car {
+            display() {
+                return "BMW car is picked by client"
+            }
+        }
+
+        class FIAT extends Car {
+            display() {
+                return "FIAT car is picked by client"
+            }
+        }
+        var obj = new BMW();
+        documet.writeln(obj.display());
+    </script>
+
+</body>
+
+</html>
