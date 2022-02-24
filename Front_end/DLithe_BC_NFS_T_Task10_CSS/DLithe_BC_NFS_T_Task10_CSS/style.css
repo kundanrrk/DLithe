@@ -10,7 +10,7 @@ th, caption
 
 table, th, td
 {
-    border: 1px solid #000;
+    border: 1px light #000;
 }
 
 th, td
@@ -20,20 +20,20 @@ th, td
 
 tr:nth-child(even)
 {
-    background-color: rgb(240, 236, 24);
+    background-color: light blue;
 }
 
 tr:nth-child(odd)
 {
-    background-color: rgb(233, 16, 160);
+    background-color: blue;
 }
 
 tr:hover 
 {
-    background-color: rgb(71, 4, 255);
+    background-color: blue;
 }
 
 .firstsection {
-    background-color: rgb(5, 215, 252);
+    background-color: blue;
     height: 400px;
 }
