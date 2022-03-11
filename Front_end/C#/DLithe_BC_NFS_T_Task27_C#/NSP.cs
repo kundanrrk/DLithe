@@ -44,9 +44,6 @@ namespace Test3
             Console.WriteLine(" -----------------------");
             Console.WriteLine("Nullable");
 
-           
-
-
             // Checking, does "a" contain value ?  
             if (a.HasValue)
             {

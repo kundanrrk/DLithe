@@ -39,11 +39,6 @@ namespace Test3
             Console.WriteLine("array min method:-  ");
             printMin(arr);
 
-
-
-
-
-
             for (int i = 0; i < arr.Length; i++)
             {
                 Console.WriteLine(arr[i]);
@@ -80,11 +75,7 @@ namespace Test3
                 }
                 System.Console.WriteLine();
             }
-
-
-
-
-           
+        
             Console.WriteLine("-------------------");
               
                 Console.WriteLine("-------------------");
